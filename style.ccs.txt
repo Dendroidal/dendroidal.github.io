@@ -1,0 +1,79 @@
+html,body{margin:0;padding:0}
+body{font: 85%/1.3 TrebuchetMS,Arial,sans-serif;
+    text-align: left;background: #e8ffe8;padding-bottom:20px;}
+a { color: #0066B3; background: inherit; text-decoration: none;}
+h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #036DA7 }
+h2 { font: bold 1.1em Arial, Arial, Sans-Serif; }
+
+div#top{width:101%; overflow:visible; background: #30A056; }
+div#top h1{padding: 30px 10px 0; color: #000; margin:0; text-align:center}
+div#top div#menu{width:100%; height:30px; margin:0; padding:0; text-align:center; overflow: hidden;}
+div#top p{margin-bottom:20px; font-size: 0.95em; text-align: center; color: rgb(55,0,0)}
+
+ul#nav {font-size:80%
+    padding: 0; margin-top: 10px}
+ul#nav li {
+    display: inline; margin:10px 10px 0; height:10px}
+ul#nav li a {
+    width: 20%;
+    background-color: #e8ffe8;
+    color: blue;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 6px 6px 0 0;}
+ul#nav li a:hover {
+    background-color: orange;}
+ul#nav li a:visited {
+    color: blue;}
+
+/*
+ul#nav,ul#nav li{list-style-type:none}
+ul#nav{font-size: 125%; padding: 0; margin:0}
+ul#nav li{display: inline;}
+ul#nav li a{width: 75px;padding: 0 20px;background: #66FFCC;text-decoration:none;color: #666; border: 1px solid #fff}
+ul#nav a:hover{background: #fff;color: #000}
+ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003}
+*/
+
+div#bottom{width:100%;overflow:auto}
+
+div#bottomleft{
+      width: 60%;
+      float:left; 
+      margin: 0 8px 0;}
+div#bottomleft div.boxleft{
+      width: 100%; 
+      margin: 8px 0 0;       
+      overflow:scrool;
+      background: #b8fcb8;
+      display:inline-block;
+      padding: 4px; 
+      }
+div#bottomleft div.boxleft li a{padding: 0 5px;text-decoration:none; border: 1px solid #fff}
+div#bottomleft div.boxleft li a:link{color: #0000FF;}
+div#bottomleft div.boxleft li a:hover{background: orange; color: #0000FF;}
+div#bottomleft div.boxleft li a:visited{color: #9500ff}
+
+div#bottomleft div.boxleft p a{padding: 0 5px;text-decoration:none; border: 1px solid #fff}
+div#bottomleft div.boxleft p a:link{color: #0000FF;}
+div#bottomleft div.boxleft p a:hover{background: orange; color: #0000FF;}
+div#bottomleft div.boxleft p a:visited{color: #9500ff}
+
+div#bottomleft div.boxleft h3 a{padding: 0 5px;text-decoration:none; color: #0000FF; border: 1px solid #fff}
+div#bottomleft div.boxleft h3 a:hover{background: orange;color: #000}
+div#bottomleft div.boxleft h3 a:visited{color: #9500ff}
+
+div#bottomright{width:20%; float: right; margin: 0 8px 0}
+div#bottomright div#boxright{width:100%; margin: 8px 0 0;overflow:scrool; background:#CCFF66; display:inline-block;}
+div#bottomright div#boxright img{display:block; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px}
+
+
+div#bottomright div.boxright a{padding: 0 5px;text-decoration:none; border: 1px solid #fff}
+div#bottomright div.right a:link{color: #0000FF;}
+div#bottomright div.boxright a:hover{background: orange; color: #0000FF;}
+div#bottomright div.boxright a:visited{color: #9500ff}
+div#bottomright div#boxright p{text-align: center;}
+div#bottomright div#boxright p a{padding: 0 5px;text-decoration:none; border: 1px solid #fff}
+div#bottomright div#boxright p a:link{color: #0000FF;}
+div#bottomright div#boxright p a:hover{background: orange; color: #0000FF;}
+div#bottomright div#boxright p a:visited{color: #9500ff}
