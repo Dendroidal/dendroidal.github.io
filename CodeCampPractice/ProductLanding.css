@@ -1,0 +1,19 @@
+#header-img{
+  max-height: 300px;
+}
+
+@media(max-width: 100px){
+  h2{
+    color: red;
+  }
+}
+
+h2{
+  display: flex;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
