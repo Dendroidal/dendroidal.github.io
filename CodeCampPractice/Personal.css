@@ -1,0 +1,15 @@
+nav{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+#welcome-section{
+  height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  h1{
+    color: red;
+  }
+  }
