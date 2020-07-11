@@ -1,0 +1,14 @@
+#root{
+  text-align: center
+}
+
+
+class editor extends React.component {
+  render() {
+    return (
+      <div>
+        <p>cat</p>
+      </div>
+    );
+  }
+}
